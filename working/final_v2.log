@@ -1,0 +1,51 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+[   10.1s] root . sub working\submission.csv dev cpu threads 10
+[   10.1s] wrote fallback submission
+[   10.1s] loading images ...
+[   40.7s] loaded (2502, 160, 160) (2105, 160, 160)
+[   49.2s] groups: 40 (fine k=40, dup thr=9.57, tracks=2283), regimes=6
+[   49.2s] fold sizes [507, 497, 492, 507, 499] fold posrate [0.26, 0.245, 0.24, 0.375, 0.24]
+[   49.2s] specs: [('polar', 0.7), ('cart', 1.0)]
+[   49.4s] pretrained weights loaded
+[   51.5s] probe polar: est 83s per model
+[   51.8s] pretrained weights loaded
+[   54.2s] probe cart: est 98s per model
+[   54.2s] polar fold 0: budget until 4757s (est epoch -1s)
+[   54.4s] pretrained weights loaded
+[  115.3s] polar fold 0 ep 0 loss 0.5965 (61s)
+[  185.0s] polar fold 0 ep 1 loss 0.5335 (70s)
+[  254.1s] polar fold 0 ep 2 loss 0.5129 (69s)
+[  324.5s] polar fold 0 ep 3 loss 0.4876 (70s)
+[  394.2s] polar fold 0 ep 4 loss 0.4478 (70s)
+[  464.1s] polar fold 0 ep 5 loss 0.4569 (70s)
+[  533.1s] polar fold 0 ep 6 loss 0.4117 (69s)
+[  605.2s] polar fold 0 ep 7 loss 0.3784 (72s)
+[  680.9s] polar fold 0 ep 8 loss 0.3314 (76s)
+[  755.7s] polar fold 0 ep 9 loss 0.2963 (75s)
+[  830.2s] polar fold 0 ep 10 loss 0.2461 (75s)
+[  905.3s] polar fold 0 ep 11 loss 0.2404 (75s)
+[  925.2s] polar fold 0 val util 0.5404 ap 0.4272
+[ 1004.3s] polar fold 0 done, submission updated (counts {'polar': 1, 'cart': 0})
+[ 1004.3s] cart fold 0: budget until 4742s (est epoch -1s)
+[ 1004.6s] pretrained weights loaded
+[ 1097.3s] cart fold 0 ep 0 loss 0.6102 (93s)
+[ 1189.9s] cart fold 0 ep 1 loss 0.5431 (93s)
+[ 1283.2s] cart fold 0 ep 2 loss 0.5520 (93s)
+[ 1375.3s] cart fold 0 ep 3 loss 0.5231 (92s)
+[ 1465.3s] cart fold 0 ep 4 loss 0.5000 (90s)
+[ 1552.1s] cart fold 0 ep 5 loss 0.5128 (87s)
+[ 1637.6s] cart fold 0 ep 6 loss 0.4964 (85s)
+[ 1735.9s] cart fold 0 ep 7 loss 0.4836 (98s)
+[ 1828.5s] cart fold 0 ep 8 loss 0.4769 (93s)
+[ 1922.2s] cart fold 0 ep 9 loss 0.4808 (94s)
+[ 2011.8s] cart fold 0 ep 10 loss 0.4644 (90s)
+[ 2098.9s] cart fold 0 ep 11 loss 0.4558 (87s)
+[ 2122.9s] cart fold 0 val util 0.5705 ap 0.4616
+[ 2232.6s] cart fold 0 done, submission updated (counts {'polar': 1, 'cart': 1})
+[ 2232.6s] polar fold 1: budget until 3159s (est epoch 70s)
+[ 2232.9s] pretrained weights loaded
+[ 2310.2s] polar fold 1 ep 0 loss 0.5560 (77s)
+[ 2392.9s] polar fold 1 ep 1 loss 0.5258 (83s)
+[ 2468.4s] polar fold 1 ep 2 loss 0.5191 (76s)
+[ 2539.0s] polar fold 1 ep 3 loss 0.4969 (71s)
+[ 2610.2s] polar fold 1 ep 4 loss 0.4801 (71s)

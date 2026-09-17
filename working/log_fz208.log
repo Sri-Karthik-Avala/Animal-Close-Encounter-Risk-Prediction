@@ -1,0 +1,104 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+[    5.2s] root . sub working\o_fz208.csv dev cuda threads 10
+[    5.2s] wrote fallback submission
+[    5.2s] native panel size 160
+[    5.2s] loading images ...
+[   19.7s] loaded (2502, 160, 160) (2105, 160, 160)
+[   24.4s] groups: 40 (fine k=40, dup thr=9.57, tracks=2283), regimes=6
+[   24.4s] fold sizes [507, 497, 492, 507, 499] fold posrate [0.26, 0.245, 0.24, 0.375, 0.24]
+[   24.4s] specs: [('cart', 1.0)]
+[   24.6s] pretrained weights loaded
+[   25.4s] probe cart: est 27s per model
+[   25.4s] cart fold 0: budget until 4813s (est epoch -1s)
+[   25.6s] pretrained weights loaded
+[   29.9s] cart fold 0 ep 0 loss 0.5826 (4s)
+[   34.3s] cart fold 0 ep 1 loss 0.5257 (4s)
+[   38.6s] cart fold 0 ep 2 loss 0.5320 (4s)
+[   43.0s] cart fold 0 ep 3 loss 0.5170 (4s)
+[   47.4s] cart fold 0 ep 4 loss 0.4988 (4s)
+[   51.6s] cart fold 0 ep 5 loss 0.5081 (4s)
+[   55.9s] cart fold 0 ep 6 loss 0.4933 (4s)
+[   60.2s] cart fold 0 ep 7 loss 0.4767 (4s)
+[   64.5s] cart fold 0 ep 8 loss 0.4745 (4s)
+[   68.9s] cart fold 0 ep 9 loss 0.4623 (4s)
+[   73.2s] cart fold 0 ep 10 loss 0.4484 (4s)
+[   77.6s] cart fold 0 ep 11 loss 0.4458 (4s)
+[   80.3s] cart fold 0 val util 0.5923 ap 0.4902
+[   91.8s] cart fold 0 done, submission updated (counts {'cart': 1})
+[   91.8s] cart fold 1: budget until 149s (est epoch 4s)
+[   92.0s] pretrained weights loaded
+[   96.5s] cart fold 1 ep 0 loss 0.6063 (4s)
+[  101.0s] cart fold 1 ep 1 loss 0.5447 (4s)
+[  105.5s] cart fold 1 ep 2 loss 0.5456 (4s)
+[  109.9s] cart fold 1 ep 3 loss 0.5143 (4s)
+[  114.4s] cart fold 1 ep 4 loss 0.5192 (4s)
+[  118.9s] cart fold 1 ep 5 loss 0.5011 (4s)
+[  123.3s] cart fold 1 ep 6 loss 0.4970 (4s)
+[  127.7s] cart fold 1 ep 7 loss 0.4868 (4s)
+[  132.2s] cart fold 1 ep 8 loss 0.4730 (4s)
+[  136.7s] cart fold 1 ep 9 loss 0.4614 (4s)
+[  141.1s] cart fold 1 ep 10 loss 0.4595 (4s)
+[  145.5s] cart fold 1 ep 11 loss 0.4572 (4s)
+[  148.2s] cart fold 1 val util 0.6122 ap 0.5136
+[  159.6s] cart fold 1 done, submission updated (counts {'cart': 2})
+[  159.6s] cart fold 2: budget until 218s (est epoch 4s)
+[  159.8s] pretrained weights loaded
+[  164.4s] cart fold 2 ep 0 loss 0.5776 (5s)
+[  168.9s] cart fold 2 ep 1 loss 0.5282 (4s)
+[  173.3s] cart fold 2 ep 2 loss 0.5430 (4s)
+[  177.8s] cart fold 2 ep 3 loss 0.5312 (4s)
+[  182.3s] cart fold 2 ep 4 loss 0.5136 (4s)
+[  186.8s] cart fold 2 ep 5 loss 0.5007 (5s)
+[  191.3s] cart fold 2 ep 6 loss 0.5080 (5s)
+[  197.0s] cart fold 2 ep 7 loss 0.4888 (6s)
+[  202.2s] cart fold 2 ep 8 loss 0.4684 (5s)
+[  207.5s] cart fold 2 ep 9 loss 0.4640 (5s)
+[  212.9s] cart fold 2 ep 10 loss 0.4528 (5s)
+[  218.2s] cart fold 2 ep 11 loss 0.4536 (5s)
+[  220.9s] cart fold 2 val util 0.5676 ap 0.4495
+[  232.3s] cart fold 2 done, submission updated (counts {'cart': 3})
+[  232.3s] cart fold 3: budget until 291s (est epoch 4s)
+[  232.5s] pretrained weights loaded
+[  237.0s] cart fold 3 ep 0 loss 0.6040 (4s)
+[  241.5s] cart fold 3 ep 1 loss 0.5144 (5s)
+[  245.9s] cart fold 3 ep 2 loss 0.5168 (4s)
+[  250.4s] cart fold 3 ep 3 loss 0.5037 (4s)
+[  254.8s] cart fold 3 ep 4 loss 0.4899 (4s)
+[  260.2s] cart fold 3 ep 5 loss 0.4765 (5s)
+[  266.2s] cart fold 3 ep 6 loss 0.4815 (6s)
+[  271.7s] cart fold 3 ep 7 loss 0.4651 (6s)
+[  276.5s] cart fold 3 ep 8 loss 0.4643 (5s)
+[  281.3s] cart fold 3 ep 9 loss 0.4414 (5s)
+[  286.2s] cart fold 3 ep 10 loss 0.4403 (5s)
+[  290.9s] cart fold 3 ep 11 loss 0.4368 (5s)
+[  293.8s] cart fold 3 val util 0.6762 ap 0.6210
+[  305.5s] cart fold 3 done, submission updated (counts {'cart': 4})
+[  305.5s] cart fold 4: budget until 364s (est epoch 4s)
+[  305.7s] pretrained weights loaded
+[  310.2s] cart fold 4 ep 0 loss 0.6126 (5s)
+[  314.6s] cart fold 4 ep 1 loss 0.5444 (4s)
+[  319.1s] cart fold 4 ep 2 loss 0.5385 (4s)
+[  323.5s] cart fold 4 ep 3 loss 0.5388 (4s)
+[  328.2s] cart fold 4 ep 4 loss 0.5303 (5s)
+[  333.1s] cart fold 4 ep 5 loss 0.5154 (5s)
+[  338.0s] cart fold 4 ep 6 loss 0.5067 (5s)
+[  342.9s] cart fold 4 ep 7 loss 0.4985 (5s)
+[  347.8s] cart fold 4 ep 8 loss 0.4820 (5s)
+[  353.5s] cart fold 4 ep 9 loss 0.4739 (6s)
+[  359.8s] cart fold 4 ep 10 loss 0.4687 (6s)
+[  365.1s] cart fold 4 ep 11 loss 0.4561 (5s)
+[  367.9s] cart fold 4 val util 0.6405 ap 0.5474
+[  379.5s] cart fold 4 done, submission updated (counts {'cart': 5})
+[  379.5s] single cart: n=2502 macro=0.5755 AP=0.5269
+[  379.5s] OOF covered 2502/2502 from {'cart': 5}
+[  379.5s] OOF macro utility (raw)  0.5755  | pooled 0.6195 | AP 0.5269
+[  379.5s]   regime 0: n= 207 pos=0.111 AP=0.3312 brier=0.0989 util=0.5022
+[  379.5s]   regime 1: n= 973 pos=0.256 AP=0.4989 brier=0.1611 util=0.6009
+[  379.5s]   regime 2: n= 532 pos=0.135 AP=0.3226 brier=0.1083 util=0.4934
+[  379.5s]   regime 3: n=  42 pos=0.310 AP=0.4149 brier=0.2216 util=0.5240
+[  379.5s]   regime 4: n= 104 pos=0.356 AP=0.5480 brier=0.2024 util=0.6229
+[  379.5s]   regime 5: n= 644 pos=0.447 AP=0.6090 brier=0.2270 util=0.6582
+[  379.5s] OOF macro utility (platt) 0.5757  coef 0.784 int -0.214
+[  379.5s] OOF macro utility (blend) 0.5757
+[  379.6s] final submission written working\o_fz208.csv rows 2105 mean 0.38130749592084673 min 0.0005999433952513211 max 0.8023578310285662
+[  379.6s] total runtime 379.6

@@ -1,0 +1,101 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+[   13.8s] root . sub working\oof_polar.csv dev cuda threads 10
+[   13.8s] wrote fallback submission
+[   13.8s] loading images ...
+[   38.3s] loaded (2502, 160, 160) (2105, 160, 160)
+[   45.7s] groups: 40 (fine k=40, dup thr=9.57, tracks=2283), regimes=6
+[   45.7s] fold sizes [507, 497, 492, 507, 499] fold posrate [0.26, 0.245, 0.24, 0.375, 0.24]
+[   45.9s] pretrained weights loaded
+[   46.9s] inference probe: est 34s per model (test+val)
+[   46.9s] fold 0: budget until 715s (reserve 210s, 5 folds left)
+[   47.2s] pretrained weights loaded
+[   53.0s] fold 0 ep 0 loss 0.5898 (6s)
+[   57.8s] fold 0 ep 1 loss 0.5152 (5s)
+[   62.5s] fold 0 ep 2 loss 0.5182 (5s)
+[   67.4s] fold 0 ep 3 loss 0.4956 (5s)
+[   72.1s] fold 0 ep 4 loss 0.4715 (5s)
+[   76.5s] fold 0 ep 5 loss 0.4551 (4s)
+[   81.0s] fold 0 ep 6 loss 0.4224 (4s)
+[   85.7s] fold 0 ep 7 loss 0.3833 (5s)
+[   90.5s] fold 0 ep 8 loss 0.3477 (5s)
+[   95.1s] fold 0 ep 9 loss 0.3068 (5s)
+[   99.8s] fold 0 ep 10 loss 0.2783 (5s)
+[  104.7s] fold 0 ep 11 loss 0.2584 (5s)
+[  107.1s] fold 0 val util 0.5740 ap 0.4695
+[  117.4s] fold 0 done, submission updated (1 models)
+[  117.4s] fold 1: budget until 965s (reserve 92s, 4 folds left)
+[  117.7s] pretrained weights loaded
+[  122.3s] fold 1 ep 0 loss 0.5615 (5s)
+[  126.8s] fold 1 ep 1 loss 0.5281 (5s)
+[  131.4s] fold 1 ep 2 loss 0.5296 (5s)
+[  136.4s] fold 1 ep 3 loss 0.4976 (5s)
+[  141.6s] fold 1 ep 4 loss 0.4833 (5s)
+[  146.3s] fold 1 ep 5 loss 0.4631 (5s)
+[  151.0s] fold 1 ep 6 loss 0.4448 (5s)
+[  155.6s] fold 1 ep 7 loss 0.4141 (5s)
+[  160.1s] fold 1 ep 8 loss 0.3739 (4s)
+[  164.5s] fold 1 ep 9 loss 0.3434 (4s)
+[  169.1s] fold 1 ep 10 loss 0.3168 (5s)
+[  173.6s] fold 1 ep 11 loss 0.3014 (5s)
+[  175.9s] fold 1 val util 0.6409 ap 0.5538
+[  186.1s] fold 1 done, submission updated (2 models)
+[  186.1s] fold 2: budget until 1298s (reserve 79s, 3 folds left)
+[  186.4s] pretrained weights loaded
+[  191.3s] fold 2 ep 0 loss 0.5561 (5s)
+[  195.9s] fold 2 ep 1 loss 0.5185 (5s)
+[  200.5s] fold 2 ep 2 loss 0.5296 (5s)
+[  205.1s] fold 2 ep 3 loss 0.5059 (5s)
+[  209.6s] fold 2 ep 4 loss 0.4741 (4s)
+[  214.1s] fold 2 ep 5 loss 0.4554 (5s)
+[  218.7s] fold 2 ep 6 loss 0.4330 (5s)
+[  223.7s] fold 2 ep 7 loss 0.4064 (5s)
+[  228.8s] fold 2 ep 8 loss 0.3626 (5s)
+[  233.6s] fold 2 ep 9 loss 0.3402 (5s)
+[  238.2s] fold 2 ep 10 loss 0.3012 (5s)
+[  242.8s] fold 2 ep 11 loss 0.2851 (5s)
+[  244.9s] fold 2 val util 0.5560 ap 0.4398
+[  255.2s] fold 2 done, submission updated (3 models)
+[  255.2s] fold 3: budget until 1895s (reserve 66s, 2 folds left)
+[  255.4s] pretrained weights loaded
+[  260.1s] fold 3 ep 0 loss 0.5429 (5s)
+[  264.8s] fold 3 ep 1 loss 0.4899 (5s)
+[  269.4s] fold 3 ep 2 loss 0.4992 (5s)
+[  274.0s] fold 3 ep 3 loss 0.4710 (5s)
+[  278.6s] fold 3 ep 4 loss 0.4595 (5s)
+[  283.0s] fold 3 ep 5 loss 0.4440 (4s)
+[  287.5s] fold 3 ep 6 loss 0.4190 (4s)
+[  292.0s] fold 3 ep 7 loss 0.3968 (5s)
+[  296.7s] fold 3 ep 8 loss 0.3651 (5s)
+[  301.4s] fold 3 ep 9 loss 0.3150 (5s)
+[  305.9s] fold 3 ep 10 loss 0.2963 (4s)
+[  310.5s] fold 3 ep 11 loss 0.2774 (5s)
+[  312.6s] fold 3 val util 0.6524 ap 0.5890
+[  323.7s] fold 3 done, submission updated (4 models)
+[  323.7s] fold 4: budget until 3547s (reserve 53s, 1 folds left)
+[  323.9s] pretrained weights loaded
+[  328.7s] fold 4 ep 0 loss 0.6944 (5s)
+[  333.1s] fold 4 ep 1 loss 0.5395 (4s)
+[  337.5s] fold 4 ep 2 loss 0.5509 (4s)
+[  342.2s] fold 4 ep 3 loss 0.5138 (5s)
+[  346.7s] fold 4 ep 4 loss 0.4855 (4s)
+[  351.3s] fold 4 ep 5 loss 0.4816 (5s)
+[  356.2s] fold 4 ep 6 loss 0.4486 (5s)
+[  361.0s] fold 4 ep 7 loss 0.4097 (5s)
+[  366.1s] fold 4 ep 8 loss 0.3846 (5s)
+[  371.8s] fold 4 ep 9 loss 0.3373 (6s)
+[  377.9s] fold 4 ep 10 loss 0.3037 (6s)
+[  384.0s] fold 4 ep 11 loss 0.3026 (6s)
+[  386.7s] fold 4 val util 0.6327 ap 0.5406
+[  399.6s] fold 4 done, submission updated (5 models)
+[  399.6s] OOF covered 2502/2502 from 5 models
+[  399.6s] OOF macro utility (raw)  0.5473  | pooled 0.6130 | AP 0.5211
+[  399.6s]   regime 0: n= 207 pos=0.111 AP=0.1926 brier=0.1381 util=0.3934
+[  399.6s]   regime 1: n= 973 pos=0.256 AP=0.5265 brier=0.1638 util=0.6194
+[  399.6s]   regime 2: n= 532 pos=0.135 AP=0.3165 brier=0.1126 util=0.4878
+[  399.6s]   regime 3: n=  42 pos=0.310 AP=0.4432 brier=0.2128 util=0.5464
+[  399.6s]   regime 4: n= 104 pos=0.356 AP=0.5000 brier=0.2370 util=0.5789
+[  399.7s]   regime 5: n= 644 pos=0.447 AP=0.6115 brier=0.2343 util=0.6578
+[  399.7s] OOF macro utility (platt) 0.5512  coef 0.483 int -0.394
+[  399.7s] OOF macro utility (blend) 0.5501
+[  399.7s] final submission written working\oof_polar.csv rows 2105 mean 0.41395416887553504 min 0.0013429540643852093 max 0.8427633908288759
+[  399.7s] total runtime 399.7
